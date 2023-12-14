@@ -4,10 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AppDeGatos</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- una manera de poner estilo css
+    <style>
+      #unico{
+        color:blue;
+      }
+    </style>-->
   </head>
   <body>
-    <h1>AppDeGatos</h1>
+    <h1 id="primer">AppDeGatos</h1>
     <main>
+      <!--<h2 style="color:darkblue">Imágenes de Gatos:</h2>  otra manera de dar estilo personalizado-->
       <h2>Imágenes de Gatos:</h2>
       <!-- Ejemplo de comentario. TODO: Agregar enlace a imagenes de gato -->
       <p>
@@ -57,9 +65,9 @@
 
       <h3>Listas de Gatos</h3>
 
-      <div>
+      <div;">
         <p>Cosas que los gatos <strong>aman</strong>:</p>
-        <ul>
+        <ul class="lista-de-gatos">
           <li>Menta gatuna</li>
           <li>Apuntadores láser</li>
           <li>Lasaña</li>
@@ -67,12 +75,15 @@
         <img src="/imagenes/lasagna.jpg" alt="Plato de lasaña" />
 
         <p>Cosas que los gatos <strong>odian</strong>:</p>
-        <ol>
+        <ol class="lista-de-gatos">
           <li>Tratamientos antipulgas</li>
           <li>Truenos</li>
           <li>Otros gatos</li>
         </ol>
-        <img src="/imagenes/gato adulto color naranja.jpg" alt="gato anaranjado"/>
+        <img
+          src="/imagenes/gato adulto color naranja.jpg"
+          alt="gato anaranjado"
+        />
       </div>
 
       <form action="">
@@ -98,7 +109,7 @@
         <br />
 
         <!-- Casilla de Verificación-->
-        <h2>Personalidad de Gatos</h2>
+        <h2 id="unico">Personalidad de Gatos</h2>
         <label for="carinoso">
           <input
             id="carinoso"
@@ -137,5 +148,10 @@
         <button type="submit">enviar</button>
       </form>
     </main>
+    <footer>
+      <p>
+        <small> Sin Derechos de Autor - Carolina Palomo </small>
+      </p>
+    </footer>
   </body>
 </html>
