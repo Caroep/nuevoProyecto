@@ -1,0 +1,20 @@
+#primer{
+  font-size: 50px;
+  font-family: 'Franklin Gothic Medium';
+  color: darkblue;
+  margin-top: 10px;
+  text-align:center ;
+
+  }
+
+#unico {
+  color: blue;
+}
+
+.lista-de-gatos{
+  color: chocolate;
+}
+
+h2 {
+  color: darkblue;
+}
