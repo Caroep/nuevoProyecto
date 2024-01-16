@@ -1,10 +1,17 @@
 #primer{
-  font-size: 50px;
-  font-family: 'Franklin Gothic Medium';
+  font-size: 70px;
+  font-family: "Fira Sans", sans-serif;
+  font-style: italic;
   color: darkblue;
-  margin-top: 10px;
+  margin-top: 5px;
   text-align:center ;
 
+  }
+
+  .contenedor {
+    background-color:cornflowerblue;
+    padding: 20px;
+  
   }
 
 #unico {
@@ -17,4 +24,45 @@
 
 h2 {
   color: darkblue;
+}
+
+#parrafo{
+  font-family: "Instrument Serif", serif;
+  font-weight: 700;
+}
+
+.imagen-gato {
+  width: 200px;
+  border-radius: 40px;
+  border-color:coral;
+  border-style: solid;
+  
+}
+
+.plato {
+  width: 300px;
+}
+
+.contenedor-listas {
+  background-color:lightblue;
+  border-color: blue;
+  border-style: groove;
+}
+
+#lista-aman {
+  font-size: 15px;
+  color:brown;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#lista-odian {
+  font-size: 18px;
+  color: tomato;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', Arial, sans-serif;
+
+}
+
+h3 { 
+  margin: 20px 5px 5px 5px;
 }
